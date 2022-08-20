@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.points-warning {
+  background-color: #ec1023;
+  color: #fff;
+}
+
+.active {
+  color: #ec1023 !important;
+}
+
+.hero {
+  position: relative;
+  padding: 6rem 0rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/hero-bg.png");
+}
+
+.hero::before,
+.washes::before {
+  position: absolute;
+  content: "";
+  background-color: #00000071;
+  bottom: 3rem;
+  top: 3rem;
+  left: 0rem;
+  right: 0rem;
+}
+
+.hero-message {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+}
+
+.h3-he {
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.btn-light {
+  border: 1px solid #000000 !important;
+  background-color: #ffffff !important;
+}
+
+.btn-light:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.hero-form {
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 4px;
+}
+
+.hero-form button {
+  width: 100%;
+  background-color: #777;
+  border: none;
+}
+
+.hero-form img {
+  height: 80px;
+  width: auto;
+}
+
+.btn-danger {
+  color: #ffffff !important;
+  background-color: #ec1023 !important;
+}
+
+.btn-danger:hover {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+}
+
+.washes {
+  position: relative;
+  color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/wash-2.png");
+}
+
+.washes-content {
+  position: relative;
+}
+
+.washes-content img {
+  height: 100px;
+  width: auto;
+}
+
+footer ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  color: #ec1023;
+}
+
+footer ul li button {
+  font-size: 12px !important;
+  width: 75%;
+}
+
+.about-hero {
+  min-height: 60vh;
+  background-image: url("../images/about-hero.jpg");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-hero h2,
+.contact-hero h2 {
+  color: #ffffff;
+  background-color: #00000071;
+  width: 98vw;
+}
+
+.bg-black {
+  background-color: #00000071 !important;
+  color: #ffffff !important;
+}
+
+.work-hero div {
+  width: 98vw !important;
+}
+
+.contact-hero {
+  min-height: 60vh;
+  background-image: url("../images/contact-hero.jpg");
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.work-hero {
+  min-height: 60vh;
+  background-image: url("../images/work-hero.jpg");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.app-store{
+  height: 40px;
+  width: auto;
+}
+
+.app-store-head{
+  height: 70px;
+  width: auto;
+}
+
+.app-store-logos{
+  align-items: center;
+  justify-content: center;
+}
+
+.h5-head{
+  font-weight: 600;
+}
