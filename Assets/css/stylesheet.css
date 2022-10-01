@@ -126,6 +126,18 @@ footer ul li button {
   width: 75%;
 }
 
+.social-icons__link{
+  text-decoration: none;
+}
+
+.social-icons__link svg{
+  fill: #ec1023;
+}
+
+.social-icons__link svg:hover{
+  fill: #c40010;
+}
+
 .about-hero {
   min-height: 60vh;
   background-image: url("../images/about-hero.jpg");
